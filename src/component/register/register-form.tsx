@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
 import { Title } from '@src/component/common'
-import { FirebaseEmailLoginForm } from '@src/component/login/firebase-login-form'
+import { FirebaseEmailRegisterForm } from '@src/component/register/firebase-email-register-form'
 
-export function LoginForm() {
+export function RegisterForm() {
   return (
     <StyledForm>
-      <Title>Login to your account</Title>
-      <FirebaseEmailLoginForm />
+      <Title>Register</Title>
+      <FirebaseEmailRegisterForm />
     </StyledForm>
   )
 }
